@@ -9,9 +9,26 @@ border: border-box;
 {
     height: 60px;
     background-color: #0f1111;
+    color: white;
+    display: flex;
+}
+.nav-logo
+{
+    height: 50px;
+    width: 100px;
 }
 .logo
 {
     background-image: url(amazon_logo.png);
+    background-size: cover;
     height: 50px;
+    width: 100%;
+}
+.border
+{
+    border: 2px solid transparent;
+}
+.border:hover
+{
+    border: 1.5px solid white;
 }
