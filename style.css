@@ -8,9 +8,11 @@ border: border-box;
 .navbar
 {
     height: 60px;
+    width: auto;
     background-color: #0f1111;
     color: white;
     display: flex;
+    align-items: center;
 }
 .nav-logo
 {
@@ -31,4 +33,21 @@ border: border-box;
 .border:hover
 {
     border: 1.5px solid white;
+}
+.add-first
+{
+color: #cccccc;
+font-size: 0.85rem ;
+margin-left: 15px;
+
+}
+.add-second
+{
+margin-left: 3px;
+    font-size: 1rem;
+}
+.add-icon
+{
+    display: flex;
+    align-items: center;
 }
