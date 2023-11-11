@@ -180,3 +180,13 @@ margin-top: 15px;
     
     margin-right: 1rem;
 }
+.foot-panel1
+{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
